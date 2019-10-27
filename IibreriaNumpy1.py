@@ -35,6 +35,17 @@ c3 = c1[-2:,-2:] #indice negativo
 c4 = np.array([9,8,7,6,5])
 c5 = c4.reshape(1,-1) #El primer 1 indica que quieres convertirlo a un arreglo de rango 2 y el -1 indica que lo dejaras en manos de la función reshape() para crear el numero de columnas
 c6 = c4.reshape(-1,) #El -1 indica que dejaste que la función decida cuantas filas crear, siempre y cuando el resultado final tenga un arreglo con rango 1
-
- 
+##################################################################################
+d1 = np.array([2,3]) #Crea un array d1
+d2 = np.array([4,2]) #Crea un array d2
+d3 = np.dot(d1,d2)   #Producto punto de d1 y d2
+##################################################################################
+m1 = np.matrix([[1,2],[4,5]]) #Crea una matriz 2X2
+m2 = np.matrix([[7,8],[2,3]]) #Crea una matriz 2X2
+e1 = np.array([[1,2],[4,5]]) #Crea un array
+e1 = np.asmatrix(e1) #Convierte un array a matriz
+##################################################################################
+f1 = np.array([(1,2,3),(4,5,6),(7,8,9)])
+f2 = f1.cumsum(axis=0) #Suma acomulativa de cada columna de f1
+f3 = f1.cumsum(axis=1) #Suma acomulativa de cada fila de f1
 
