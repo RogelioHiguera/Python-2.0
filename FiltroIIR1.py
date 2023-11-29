@@ -3,6 +3,7 @@
 Created on Tue Nov 28 14:42:44 2023
 Filtro IIR Prueba 1
 @author: Rogelio Manuel Higuera González 
+Tecnológico Nacional de México
 Academia: Ingeniería Electrónica
 """
 import numpy as np
